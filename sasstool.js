@@ -66,7 +66,7 @@ Ext.onReady(function () {
         colorToHex,
         rgbToHex,
         panel,
-        window,
+        sampleWindow,
         rgbToHsl,
         hslToRgb;
 
@@ -1647,7 +1647,7 @@ Ext.onReady(function () {
         }]
     });
 
-    window = Ext.create('Ext.window.Window', {
+    sampleWindow = Ext.create('Ext.window.Window', {
         title: 'Sample Window',
         id: 'sampleWindow',
         height: 600,
