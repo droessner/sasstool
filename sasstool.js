@@ -132,16 +132,7 @@ Ext.onReady(function () {
             temp2 = 2 * l - temp1;
 
             Ext.Array.forEach(rgb, function (item, index) {
-                if (item < 1) {
-                    item = temp2 + (temp1 - temp2) * item;
-                } else if (item < 3) {
-                    item = temp1;
-                } else if (item < 4) {
-                    item = temp2 + (temp1 - temp2) * (4 - item);
-                } else {
-                    item = temp2;
-                }
-                rgb[index] = item * 2.55;
+				rgb[index] = 2.55 * (item < 1 ? (temp2 + (temp1 - temp2) * item) : (item < 3 ? (temp1) : (item < 4 ? (temp2 + (temp1 - temp2) * (4 - item)) : (temp2))));
             });
 
             return {
