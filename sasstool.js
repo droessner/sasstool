@@ -1577,7 +1577,7 @@ Ext.onReady(function () {
             tbar: [{
                 xtype: 'button',
                 text: 'Find Suggestions',
-                icon: 'ext/resources/themes/images/gray/grid/refresh.gif',
+                icon: 'ext-4.0.7/resources/themes/images/gray/grid/refresh.gif',
                 listeners: {
                     click: function () {
                         if (panel.down('#start').isValid()) {
