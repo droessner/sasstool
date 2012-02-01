@@ -1,5 +1,6 @@
-=ExtJS Theming Utility=
-This tool was created using *ExtJS 4.0.7*.  To run the tool you'll need
+# ExtJS Theming Utility
+
+This tool was created using **ExtJS 4.0.7**.  To run the tool you'll need
 the ext-all.js file as well as the ext-all-gray.css file along with the
 gray theme images folder.  Your folder structure should be:
 
